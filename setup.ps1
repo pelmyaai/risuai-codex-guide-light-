@@ -63,7 +63,8 @@ if ($skipLogin -eq "y" -or $skipLogin -eq "Y") {
 Write-Step "바탕화면 바로가기 만드는 중..."
 
 # clawgate.exe 경로 찾기
-$exePath = (Get-Command clawgate -ErrorAction SilentlyContinue)?.Source
+$cgCmd = Get-Command clawgate -ErrorAction SilentlyContinue
+if ($cgCmd) { $exePath = $cgCmd.Source } else { $exePath = $null }
 
 if (-not $exePath) {
     # 기본 경로 fallback
