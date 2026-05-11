@@ -1,6 +1,6 @@
 # ============================================================
 #  clawgate 자동 설치 & 설정 스크립트
-#  사용법: irm https://raw.githubusercontent.com/pelmyaai/risuai-codex-guide-light-/main/setup.ps1 | iex
+#  사용법: irm https://raw.githubusercontent.com/pelmyaai/risuai-codex-guide-light-/refs/heads/main/setup.ps1 | iex
 # ============================================================
 
 $ErrorActionPreference = "Stop"
