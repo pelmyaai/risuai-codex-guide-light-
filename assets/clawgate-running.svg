@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-label="clawgate 실행 및 라우팅 확인 예시 화면">
+  <rect width="960" height="600" fill="#050505"/>
+  <text x="26" y="62" fill="#d4d4d4" font-family="Consolas, monospace" font-size="22">WARNING: --bigModel="gpt-5.5" is not a known Codex model</text>
+  <rect x="26" y="104" width="560" height="264" fill="none" stroke="#d4d4d4" stroke-width="2"/>
+  <line x1="26" y1="156" x2="586" y2="156" stroke="#d4d4d4" stroke-width="2"/>
+  <text x="120" y="140" fill="#d4d4d4" font-family="Consolas, monospace" font-size="25">clawgate - Anthropic ↔ OpenAI Proxy</text>
+  <text x="54" y="204" fill="#d4d4d4" font-family="Consolas, monospace" font-size="24">Mode:        ChatGPT Codex (default)</text>
+  <text x="54" y="238" fill="#d4d4d4" font-family="Consolas, monospace" font-size="24">Listening:   http://127.0.0.1:8082</text>
+  <text x="54" y="272" fill="#d4d4d4" font-family="Consolas, monospace" font-size="24">Big Model:   gpt-5.5</text>
+  <text x="54" y="306" fill="#d4d4d4" font-family="Consolas, monospace" font-size="24">Mid Model:   gpt-5.3-codex</text>
+  <text x="54" y="340" fill="#d4d4d4" font-family="Consolas, monospace" font-size="24">Small Model: gpt-5.2-codex</text>
+  <text x="26" y="424" fill="#d4d4d4" font-family="Consolas, monospace" font-size="24">POST /v1/messages</text>
+  <text x="262" y="424" fill="#22c55e" font-family="Consolas, monospace" font-size="24">✓</text>
+  <text x="292" y="424" fill="#d4d4d4" font-family="Consolas, monospace" font-size="24">[Codex]</text>
+  <text x="26" y="464" fill="#22d3ee" font-family="Consolas, monospace" font-size="26">claude-3-opus</text>
+  <text x="250" y="464" fill="#d4d4d4" font-family="Consolas, monospace" font-size="26">→</text>
+  <text x="292" y="464" fill="#22c55e" font-family="Consolas, monospace" font-size="26">gpt-5.5</text>
+</svg>
